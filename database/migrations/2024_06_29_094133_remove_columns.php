@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         //
-        Schema::table('users',function($table){
-            $table->dropColumn('email_verified_at');
-        });
+        // Schema::table('users',function($table){
+        //     $table->dropColumn('email_verified_at');
+        // });
     }
 
     /**
